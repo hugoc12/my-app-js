@@ -34,7 +34,7 @@ function App(){
       content:contentInput
     }
 
-    setNotes([...notes, newNote]);
+    setNotes([...notes, newNote]); // PARA QUE A TELA ATUALIZE DEPOIS DA ALTERAÇÃO DA STATE
 
   }
 
@@ -50,7 +50,7 @@ function App(){
     let data = notes;
     data.splice(indiceNote, 1);
 
-    setNotes([...data]);
+    setNotes([...data]); // PARA QUE A TELA ATUALIZE DEPOIS DA ALTERAÇÃO DA STATE
   }
   
   return(   
