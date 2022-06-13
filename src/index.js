@@ -2,7 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+
+//#112B3C
+//#F66B0E
+//#205375
+//#EFEFEF
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
